@@ -9,12 +9,12 @@
         background-color: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(8px); /* Para compatibilidad */
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
         z-index: 1030;
         }
 
         .texto-destacado {
-            color: #bb86fc;
+            color: #8725ff;
         }
 
         .texto-gris {
@@ -39,7 +39,7 @@
         }
 
         .btn-morado {
-            background-color: #bb86fc;
+            background-color: #8725ff;
             border: none;
             color: white;
         }
@@ -49,12 +49,13 @@
         }
 
         .btn-morado-borde {
-            border: 1px solid #bb86fc;
-            color: #bb86fc;
+            border: 1px solid #8725ff;
+            color: #8725ff;
         }
 
         .btn-morado-borde:hover {
-            background-color: #bb86fc;
+            border: 1px solid #8725ff;
+            background-color: #372053;
             color: white;
         }
 
@@ -75,7 +76,7 @@
 
         .icono-tarjeta {
             font-size: 2rem;
-            color: #bb86fc;
+            color: #8725ff;
         }
 
         .album-tarjeta img {
